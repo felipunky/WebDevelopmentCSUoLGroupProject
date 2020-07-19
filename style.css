@@ -345,8 +345,15 @@ img {
 }
 
 /*aboutUs.html CSS-----------------------------------*/
+#aboutUsLanding:hover {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
 
-section#aboutUs {
+section.aboutUs {
     padding-top: 1em;
     padding-bottom: 2em;
     margin-left: 1em;
@@ -395,7 +402,7 @@ img.imgBorder {
 
 }
 
-main#aboutUs h2{
+main.aboutUs h2{
     font-family: 'yourShirt';
     font-size: 3.5em;
     color: black;
@@ -404,7 +411,7 @@ main#aboutUs h2{
     margin: 0px;
 }
 
-main#aboutUs p{
+main.aboutUs p{
     font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -570,16 +577,16 @@ main table, th, td{
     align-content: center
 }
 
-main#aboutUs th{
+main.aboutUs th{
     color: white;
     background-color: #32C79A;
 }
 
-main#aboutUs table#programsListings th{
+main.aboutUs table#programsListings th{
     background-color: #82DB5C;  
 }
 
-main#aboutUs th, td{
+main.aboutUs th, td{
     height: 40px;
     width: 250px;;
 }
