@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+iframe {
+    border-width: 0px;
+}
+
 
 /*Header CSS---------------------------------------*/
 header {
