@@ -345,13 +345,6 @@ img {
 }
 
 /*aboutUs.html CSS-----------------------------------*/
-#aboutUsLanding:hover {
-    display: none;
-    visibility: hidden;
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
 
 section.aboutUs {
     padding-top: 1em;
@@ -387,7 +380,7 @@ img.imgBorder {
     border-color: burlywood;
 }
 
-.logoFont{
+#logoFont{
     font-family: 'yourShirt';
 }
 
