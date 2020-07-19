@@ -1,0 +1,655 @@
+/*Custom Fonts-------------------------------------*/
+@font-face {
+    font-family: 'yourShirt';
+    src: url('yourShirt.ttf') format('truetype');
+}
+
+
+/*Common CSS-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Header CSS---------------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #033D94;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+    border-bottom-color: aquamarine;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+#menuItems{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+#menuItems>a{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#logo {
+    display: flex;
+    padding-left: 1em;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: 'yourShirt';
+    font-style: normal;
+    font-size: 2em;
+}
+
+#logo sup{
+    font-size: 30px;
+}
+
+#logo h1 {
+    margin: 0.5em;
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+
+
+
+/*Nav CSS-------------------------------------------*/
+
+nav a:link, a:visited{
+    background-color: #32C79A;
+    color: white;  
+    border: solid black 2px;
+    border-color: rgba(0, 58, 145);
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover, a:active {
+    color: black;
+    border: 2px #32C79A solid;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/*index.html CSS----------------------------Our Home Page--------*/
+#LandingVideo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    font-family: 'yourShirt';
+    font-style: normal;
+    font-size: 2em;
+    flex-basis: 1em;
+}
+
+#MissionStatement {
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1em;
+    justify-content:center;
+}
+
+#statementP1 {
+    color: #033D94;
+}
+
+#statementP2 {
+    color: #82DB5C;
+    font-size: 1em;
+}
+
+#Purchase {
+    background-color: lightgray;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#TicketDetails {
+    padding-right: 5em;
+    padding-left: 10em;
+    align-content: center;
+    justify-content: center;
+    color: #033D94;
+    font-family: 'yourShirt';
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#Tickets {
+    display: flex;
+    padding-right: 2em;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Ticket {
+    border-style: solid;
+    border-width: thin;
+    padding: 0.2em;
+    font-family: 'yourShirt';
+    font-style: normal;
+    font-size: 1.5em;
+    width: 250px;
+    text-align: center;
+}
+
+#Ticket>h2:nth-child(2) {
+    color: #82DB5C;
+    font-size: 2em;
+}
+
+#Ticket>h2:nth-child(1n+3) {
+    color: #033D94;
+    font-size: 1em;
+}
+
+#Ticket>button { 
+    background-color: #82DB5C;
+    border-style: none;
+    width: 7em;
+    height:3em;
+    opacity: 0.99;
+    
+}
+
+#TicketType {
+    font-size: 0.75em;
+    align-content: center;
+    justify-content: center;
+    color: #033D94;
+    font-family: 'yourShirt';
+    font-style: normal;
+    
+}
+
+#Subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+#Subscribe>h2 {
+    color: #033D94;
+    font-family: 'yourShirt';
+    font-style: normal;
+    padding-right:3em;
+}
+
+#contactForm {
+    padding: 1.5em
+}
+
+#contactEmail {
+    height: 3em;
+    width: 30em;
+    align-self: center;
+}
+
+#contactForm>button {
+    background-color: #82DB5C;
+    border-style: none;
+    width: 7em;
+    height:3em;
+    opacity: 0.99;
+    align-self: center;
+}
+
+
+
+/*rides&entertainment.html CSS-------------------------------------*/
+#welcome {
+    padding: 2em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+    font-family: 'yourShirt';
+    font-style: normal;
+    font-size: 2em;
+}
+
+#season {
+    padding-top: 2em;
+    color: #033D94;
+}
+
+#intro {
+    color: black;
+    font-size: 0.8em;
+}
+
+#buynow {
+    background: #82DB5C;
+    font-size: 0.65em;
+    font-family: 'yourShirt';
+    padding: 0.2em;
+    border: 0.1px solid black;
+    color: white;
+}
+
+#learnmore {
+    background: #32C79A;
+    font-size: 0.65em;
+    font-family: 'yourShirt';
+    padding: 0.2em;
+    border: 0.1px solid black;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.card h4 {
+    color: #033D94;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(50,199,154,0.2);
+}
+
+img {
+    border-radius: 5px 5px 1px 1px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2em;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#rides {
+    padding: 2em;
+    background: lightgray;
+    font-family: 'yourShirt';
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#rides h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#rides p {
+    font-size: 0.8em;
+    color: black;
+}
+
+.group2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2em;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#entertainment {
+    padding: 2em;
+    font-family: 'yourShirt';
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#entertainment h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#entertainment p {
+    font-size: 0.8em;
+    color: black;
+}
+
+/*aboutUs.html CSS-----------------------------------*/
+
+section#aboutUs {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-size: 1.75em;
+}
+
+div#aboutUsStatement{
+    margin-top: 5em;
+    color:black;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif; 
+}
+
+.aboutUsOverlayText{
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 70%);
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #82DB5C;
+    font-family: 'yourShirt';
+}
+
+img.imgBorder {
+    border-style: outset;
+    border-color: burlywood;
+}
+
+#logoFont{
+    font-family: 'yourShirt';
+}
+
+
+#comeVisitUs {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-color: beige;
+    border-top: grey groove;
+    border-bottom: grey groove;
+
+}
+
+main#aboutUs h2{
+    font-family: 'yourShirt';
+    font-size: 3.5em;
+    color: black;
+    text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
+}
+
+main#aboutUs p{
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#hotels {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+    font-size: 1em;
+    display: flex;
+}
+
+div.gallery {
+    margin: 25px;
+    border: 2px solid #ccc;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+div.gallery:hover {
+    background-color: rgba(0, 0, 0, 30%);
+    border: grey 2px groove;
+}
+
+div.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+section#workWithUs {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+}
+
+section#workWithUs h2{
+    color: black;
+}
+
+div.jobsInternships{
+    display: inline-grid;
+    padding: 20px; 
+}
+
+img.work{
+    border-style: outset;
+    border-color: lightgray;
+}
+
+a#workLinks{
+    padding-top: 30px;
+}
+a.workLinks:link, a.workLinks:visited{
+    color: white;
+    margin: 0.5em;
+    border: solid white;
+    background-color: #32C79A;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'yourShirt';
+    font-size: 1.5em;
+}
+
+a.workLinks:hover, a.workLinks:active {
+    background-color: white;
+    color: #32C79A;
+    border: #32C79A solid;
+}
+
+a.workLinks:link, a.workLinks:visited{
+    color: white;
+    margin: 0.5em;
+    border: solid white;
+    background-color: #32C79A;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'yourShirt';
+    font-size: 1.5em;
+}
+
+a.workLinks:hover, a.workLinks:active {
+    background-color: white;
+    color: #32C79A;
+    border: #32C79A solid;
+}
+
+a#internButton:link, a#internButton:visited{
+    background-color: #82DB5C;
+    border-color: #82DB5C;
+}
+
+a#internButton:hover, a#internButton:active {
+    color:#82DB5C;
+    background-color: white;
+}
+
+section#contactGetinTouch{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+    background-color: beige;
+    border-top: grey groove;
+    border-bottom: grey groove;
+}
+
+
+section#contactGetinTouch h2{
+    margin-left: 27%;
+    margin-top: 0px;
+    margin-bottom: 0.25em;
+}
+
+#contactForm{
+    margin-left: 30%;   
+}
+
+form#contactForm button[type=submit]{
+    float:right;
+    cursor: pointer;
+    font-family: 'yourShirt';
+    font-size: 1em;
+    margin-right: 25%;
+}
+
+form#contactForm input[type=text]{
+    margin: 8px 0;
+    width:50%;
+    height:30px;
+}
+
+form#contactForm textarea{
+    margin: 8px 0;
+    width:70%;
+    height: 100px;
+    resize: none;
+}
+
+
+section#contactPostings{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 15%
+}
+
+section#contactPostings h2 a{
+    font-family: 'yourShirt';
+}
+
+main table, th, td{
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    border: 0.5px dotted lightgrey;
+    background-color: white;
+    text-align: center;
+    align-content: center
+}
+
+main#aboutUs th{
+    color: white;
+    background-color: #32C79A;
+}
+
+main#aboutUs table#programsListings th{
+    background-color: #82DB5C;  
+}
+
+main#aboutUs th, td{
+    height: 40px;
+    width: 250px;;
+}
+
+#programJobEmail {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'yourShirt';
+    text-align: center;
+    padding:10px;
+    margin-left:2em;
+    width:1000px;
+    background: beige; 
+    border: grey 1px solid;
+}
+
+#programJobEmail a{
+    font-family: 'yourShirt';
+    color: #033D94;
+    font-size: 1.5em;
+}
+
+
+
+/*Footer CSS-------------------------------------------*/
+footer {
+    border-style: solid;
+    border-width: medium;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#footerLevel1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#socialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+#socialMedia>icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#socialMedia>p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer>h3 {
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+} 
+
+div#footerNav{
+   margin-top: 2%
+}
+
+#footerNav a{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    color: black;
+}
+

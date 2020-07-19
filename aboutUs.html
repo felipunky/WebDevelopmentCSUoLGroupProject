@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Development Project. 'About Us' page.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>
+    <!-- Start of header section -- Contributed by the whole team  -->
+    <header>
+        
+    <!-- Logo  -->
+        <a href="index.html" id="logo">
+            <img src="/Photos/dino.png" width="100" alt="DinoLand logo">
+            <h1><span id="logoFont">Dinoland</span><sup>©</sup></h1>
+        </a>
+        
+    <!--Navigation bar -->
+        <nav id="menuItems">
+            <a href="index.html">Homepage</a>
+            <a href="ridesAttractions.html">Rides & Attractions</a>
+            <a href="aboutUs.html">About Us</a>
+        </nav>   
+    </header>
+    
+<!--   End of Header     -->
+    
+    <!--Landing section -- Contributed by Felipe -->
+    <main id="aboutUs">
+    <section id="aboutUs">
+        <div id="aboutUsLanding" class="aboutUsOverlayText">
+           <h1>Come visit us!</h1>
+        </div>
+            <img id="signPicture" class="imgBorder" width="1080" height="auto" src="/Photos/dinolandSign.png">
+
+    <div id="aboutUsStatement">
+        <h3>What is life but a collection of experiences? We guarantee you won’t forget <span id="logoFont">Dinoland</span><sup>©</sup></h3>
+    </div>
+    </section>
+        
+    <!--  Section for listing hotels -- Contributed by Felipe   -->
+    <section id="comeVisitUs">
+        <h2>Need help finding where to stay?</h2>
+
+        <div id="hotelStatement">    
+            <p>We have created the coziest place away from home so that you don’t feel like you even left in the first place!</p>
+        </div>
+        
+        <!-- Hotel listings -- Contributed by Lauren  -->
+        <section id="hotels">
+            <!-- Hotel 1  -->
+            <div class="gallery">
+                <a target="_blank" href="https://www.trivago.ca/">
+                    <img src="Photos/hotel1a.jpg" alt="Family Hotel" width="600" height="400">
+                </a>
+                <div class="desc"><p>Stay at <em>Family Hotel</em>. Comfortable hotel rooms for the whole family.</p></div>
+            </div>
+            
+            <!-- Hotel 2  -->
+            <div class="gallery">
+                <a target="_blank" href="https://www.hotels.com">
+                    <img src="Photos/hotel2.jpg" alt="Bougie Hotel" width="600" height="400">
+                </a>
+                <div class="desc"><p><em>Bougie</em> is a 4-star hotel located within 10 minutes of <span id="logoFont">Dinoland</span><sup>©</sup></p></div>
+            </div>
+            
+            <!-- Hotel 3  -->
+            <div class="gallery">
+                <a target="_blank" href="https://www.bookings.com">
+                    <img src="Photos/hotel3.jpg" alt="Penny Comfort" width="600" height="400">
+                </a>
+              <div class="desc"><p>The best value nearby. <em>Penny Comfort</em> offers an option for the budget-conscious traveller. </p></div>
+            </div>
+            
+            <!-- Hotel 4  -->
+            <div class="gallery">
+                <a target="_blank" href="https://www.tripadvisor.com">
+                    <img src="Photos/hotel4.jpg" alt="Winds luxury hotel" width="600" height="400">
+                </a>
+              <div class="desc"><p>For those who are looking for luxury, stay at <em>Winds</em> for an experience unparalled. </p></div>
+            </div>
+        </section>
+    </section>
+        
+        
+    <!--Section for advertising for careers employment Contributed by Felipe & Lauren-->
+        
+    <section id="workWithUs">
+        <h2>Work with us</h2>
+        <div id="contactWorkwithUs">
+            <p>If you are looking for a summer job that you will never forget, or a permanent professional position, we're always looking for talented people to join our team!</p>
+        </div>
+        
+        <!-- Job Postings link -->
+        <div id="workWithUsJobs" class ="jobsInternships">
+            <div class="workPicture">
+                <a href="#jobPostings">
+                    <img width="250" height="auto" src="/Photos/dinolandEmployee3.jpg" alt="DinoLand Employee" class="work">
+                </a>
+            </div>
+            <a href="#jobPostings" class="workLinks">Job Postings</a>
+        </div>
+       
+        <!-- Intern and Programs link -->
+        <div id="workWithUsPrograms" class ="jobsInternships">  
+            <div class="workPicture">
+                <a href="#internPostings">
+                    <img width="250" height="auto" src="/Photos/parkDesigner.jpeg" alt="DinoLand Employee" class="work">
+                </a>
+            </div>
+            <a id="internButton" href="#internPostings" class="workLinks">Programs & Internships</a> 
+        </div>
+    </section> 
+       
+        
+     <!--Contact form -- Contributed by Lauren-->
+    <section id="contactGetinTouch">
+        <h2 id="getInTouchTitle">Get in touch</h2>
+       
+        <form id="contactForm" action="mailto:lm260@student.london.ac.uk">
+
+            <!-- Text box for Name -->
+            <label for="contactName"></label>
+            <input type="text" onfocus="this.value=''" id="contactName" name="contactName" placeholder="Enter your name here..."><br>
+            <!-- Text box for Telephone -->
+            <label for="contactTelephone"></label>
+            <input type="text" onfocus="this.value=''" id="contactTelephone" name="contactTelephone" placeholder="Enter your telephone number here..."><br>
+            <!-- Text box for Email -->
+            <label for="contactEmail"></label>
+            <input type="text" onfocus="this.value=''" id="contactEmail" name="contactEmail" placeholder="Enter your email address here..."><br>
+            <!-- Text box for User entering message -->
+            <label for="contactMessage"></label>
+            <textarea id="contactMessage" onfocus="this.value=''" name="contactMessage" rows="4" cols="50">Enter your message here...
+            </textarea><br>
+
+            <button class="button contactButton" type="submit">Send</button>
+        </form>
+    </section>
+        
+        <!--   Section for posting the fictional job postings and programs -- Contributed by Lauren -->
+    
+    <section id="contactPostings">
+        <h2><a id="jobPostings">Job Postings</a></h2>
+        
+        <p>Here you'll find our latest job postings. Check back often to stay updates on DinoLand opportunities!</p><br>
+
+        <div id="jobListings"> 
+            <!-- Table for listing Job postings -->
+            <table id="jobTable">
+                <tr>
+                    <th>Job Title</th>
+                    <th>Job Description</th>
+                    <th>Location</th>
+                    <th>Application Deadline</th>
+                </tr>
+                <tr>
+                    <td>Ticket Kiosk Attendant</td>
+                    <td>Sell tickets in DinoLand kiosk.</td>
+                    <td>Dinoland, DinoWorld</td>
+                    <td>September 1<sup>st</sup>, 2020</td>
+                </tr>
+                <tr>
+                    <td>Theme Park Custodian</td>
+                    <td>Maintain park cleanliness.</td>
+                    <td>Dinoland, DinoWorld</td>
+                    <td>August 23<sup>rd</sup>, 2020</td>
+                </tr>
+                <tr>
+                    <td>Water Slide Operator/Supervisor</td>
+                    <td>Ensure safety of riders and integrity of the water slide.</td>
+                    <td>Dinoland, DinoWorld</td>
+                    <td>August 3<sup>rd</sup>, 2020</td>
+                </tr>
+            </table><br><br>
+        </div>
+
+        <div id="jobPrograms">
+
+            <h2><a id="internPostings">Programs & Internships</a></h2>
+
+            <p>We believe in investing in young minds and talent. Here is a listing of programs and internships.</p><br>
+
+            <table id="programsListings">
+            <!-- Table for listing programs available at Dinoland -->    
+                <tr>
+                    <th>Program Title</th>
+                    <th>Program Description</th>
+                    <th>Location</th>
+                    <th>Application Deadline</th>
+                </tr>
+                <tr>
+                    <td>DinoTykes</td>
+                    <td>For children aged 6-10. Join us each Saturday to learn more about dinosaurs with fun, dinosaur-themed activities.</td>
+                    <td>Dinoland, DinoWorld</td>
+                    <td>October 21<sup>st</sup>, 2020</td>
+                </tr>
+                <tr>
+                    <td>Park Design Internship</td>
+                    <td>Are you an aspiring theme park designer? Passionate about dinosaurs? Apply for our 6-month internship.</td>
+                    <td>Dinoland, DinoWorld</td>
+                    <td>September 24<sup>st</sup>, 2020</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Note about how to get more informatin about postings and programs-->
+        <div>
+            <p id="programJobEmail">If you wish to find out more about any of the programs or positions above, please click <a href="mailto:lm260@student.london.ac.uk">here</a> to email us.</p></div>
+    </section>    
+    </main>    
+          
+<!--Start of code for the footer -- Contributed by Amar and Lauren-->
+    <footer>
+        <section id="footerLevel1">
+        <!-- Dinoland logo and link to main page -->    
+        <a href="index.html"><img src="/Photos/dino.png" width="120" alt="DinoLand logo"></a>
+        <!-- Links and graphics for social media -->
+        <div id="socialMedia">
+            <p>Stay Connected</p>
+            <selection id="icons">
+                <a href="https://www.facebook.com"><img src="/Photos/facebook.png" width=40 alt="Facebook logo"></a>
+                <a href="https://www.instagram.com"><img src="Photos/instagram.png" width=40 alt="Instagram logo"></a>
+                <a href="https://www.twitter.com"><img src="Photos/twitter.png" width=40 alt="Twitter logo"></a>
+            </selection>    
+        </div>
+
+        <!-- Footer navigation links -->    
+        <div id="footerNav">
+            <a href="index.html">Homepage</a>
+            <a href="ridesAttractions.html" >Rides & Attractions</a>
+            <a href="aboutUs.html">About Us</a>
+        </div>
+        </section>
+
+        <!-- Company and copyright information -->
+        <h3>
+        ©2020 <span id="logoFont">Dinoland</span> Company | ©2020 Fun-Fun Worldwide LLC
+        </h3>  
+    </footer>    
+</body>
+</html>
