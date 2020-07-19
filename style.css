@@ -216,6 +216,14 @@ nav a:hover, a:active {
     align-self: center;
 }
 
+#contactMessage {
+    font-family: 'yourShirt';
+    color: grey;
+    height: 3em;
+    width: 30em;
+    align-self: center;
+}
+
 #contactForm>button {
     background-color: #82DB5C;
     border-style: none;
