@@ -109,7 +109,7 @@ nav a:hover, a:active {
     flex-basis: 1em;
 }
 
-#MissionStatement {
+.MissionStatement {
     padding-left: 1em;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ nav a:hover, a:active {
     justify-content: space-around;
 }
 
-#Ticket {
+.Ticket {
     border-style: solid;
     border-width: thin;
     padding: 0.2em;
@@ -163,17 +163,17 @@ nav a:hover, a:active {
     text-align: center;
 }
 
-#Ticket>h2:nth-child(2) {
+.Ticket>h2:nth-child(2) {
     color: #82DB5C;
     font-size: 2em;
 }
 
-#Ticket>h2:nth-child(1n+3) {
+.Ticket>h2:nth-child(1n+3) {
     color: #033D94;
     font-size: 1em;
 }
 
-#Ticket>button { 
+.Ticket>button { 
     background-color: #82DB5C;
     border-style: none;
     width: 7em;
@@ -182,7 +182,7 @@ nav a:hover, a:active {
     
 }
 
-#TicketType {
+.TicketType {
     font-size: 0.75em;
     align-content: center;
     justify-content: center;
